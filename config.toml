@@ -1,0 +1,84 @@
+baseurl         = "https://yunke_sun.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+
+[params]
+  title       = "My Pina Colada Life"
+  subtitle    = " Yunke Sun "
+  copyright   = "© 2018"
+
+  cover       = "header.jpeg"
+  description = "Yunke Sun's personal website."
+  metaDescription = "Yunke Sun's personal website"
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+
+  fbName = "Yunke Sun"
+  linkedinName = "Yunke Sun"
+
+
+  logo = ""
+  orgName = "Yunke"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  showSupport = true
+
+  author = "Yunke Sun"
+  authorAvatar = "profilef.jpeg"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "A wonderful self manager,self taker, and self entertainer."
+
+  pageNotFoundTitle = "See you soon!"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+
+[[menu.main]]
+  name = "CV (CN)"
+  url = "孙蕴珂简历.pdf"
+  weight = 150
+
+
+[[menu.main]]
+  name = "CV (EN)"
+  url = "Yunke Sun CV.docx"
+  weight =100
+
+
+[[menu.main]]
+    name = " Academic Life"
+    url = "/tags/essays/"
+    weight = 99
+
+[[menu.main]]
+  name = "Industrial life"
+  url = "/categories/Experience/"
+  weight = 97
+
+[[menu.main]]
+    name = "Highlight moments"
+    url = "/categories/highlight moments/"
+    weight = 95
+
+[[menu.main]]
+  name = "Weibo"
+  url = "https://weibo.com/u/6405983396?is_all=1"
+  weight = 90
